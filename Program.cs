@@ -16,4 +16,18 @@ class Program
     }
 
     // TODO: Implementar funciones de suma, resta, multiplicación, división
+
+    public void Restas()
+    {
+        Console.Writeline("Calculadora de restas");
+        Console.WriteLine("Ingrese primer valor");
+        int num1 = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Ingrese segundo valor");
+        int num2 = Convert.ToInt32(Console.ReadLine());
+
+        int resultado = a-b;
+        Console.Writeline($"El resultado es: {resultado}");
+    }
 }
+
